@@ -4,6 +4,10 @@ All codes of the paper titled "<b>Sparse Portfolio Selection via Multiple Testin
 
 Soon we will upload all the R codes of this paper.
 
+### Capital Asset Pricing Model (CAPM)
+
+1) <b>CAPM_MLE_Back_testing.R</b> compute the &alpha; &beta; and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stock's for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. 
+
 ### Bayes Oracle test with Discrete Mixture prior for Portfolio Selection and Back testing of K-factor model
 
 1) <b>Factor_Model_BO_Back_testing.R</b> compute the Bayes Oracle statistics <i>S<sub>i</sub></i> for the <i>i<sup>th</sup></i> stock. Then it select the ns(=25) many stocks for portfolio for largest ns(=25) <i>S<sub>i</sub></i>'s. The function implements the portfolio selection for the <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stock's for portfolio and then test the performance for the month <i>t+1</i>.
