@@ -24,5 +24,5 @@ Soon we will upload all the R codes of this paper.
 
 ### Bayes Oracle test with Discrete Mixture prior for Portfolio Selection and Back testing of K-factor model
 
-1) <b>Factor_Model_BO_Back_testing.R</b> compute the Bayes Oracle statistics <i>S<sub>i</sub></i> for the <i>i<sup>th</sup></i> stock.
+1) <b>Factor_Model_BO_Back_testing.R</b> compute the Bayes Oracle statistics <i>S<sub>i</sub></i> for the <i>i<sup>th</sup></i> stock. Then it select the ns(=25) many stocks for portfolio for largest ns(=25) <i>S<sub>i</sub></i>'s.
 
