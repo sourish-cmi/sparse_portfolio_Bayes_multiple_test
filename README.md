@@ -17,4 +17,4 @@ Soon we will upload all the R codes of this paper.
 
 6) <b>dinvGamma.R</b> file contain a function named '<i>dinvGamma</i>'. The function evaluate the density of the <b>Inverse-Gamma</b> distribution.
 
-7) <b>log_posterior_parallel.R</b> file contain a function named '<i>log_posterior_parallel</i>'. The function evaluate the log-posterior at Metropolis step in '<i>Factor_Model_HB_selection</i>' function.
+7) <b>log_posterior_parallel.R</b> file contain a function named '<i>log_posterior_parallel</i>'. The function evaluate the log-posterior for Metropolis step in '<i>Factor_Model_HB_selection</i>' function.
