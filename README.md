@@ -9,10 +9,12 @@ Soon we will upload all the R codes of this paper.
 
 2) <b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. 
 
-3) <b>simulate_theta_sigma.R</b> file contain a function named '<i>simulate_theta_sigma</i>'. The function is called in  <i>Factor_Model_HB_selection</i> and used in Gibbs steps to simulate stock specific &beta; and &sigma;
+3) <b>simulate_theta_sigma.R</b> file contain a function named '<i>simulate_theta_sigma</i>'. The function is called in  <i>Factor_Model_HB_selection</i> and used in Gibbs steps to simulate stock specific &beta; and &sigma; in '<i>Factor_Model_HB_selection</i>' function.
 
-4) <b>proposal_4_HC.R</b> file contain a function named '<i>proposal_4_HC</i>'. The function simulate proposal value for Global shrinkage parameter &tau; from uniform distribution in the Metropolis-Hastings step for &tau;.
+4) <b>proposal_4_HC.R</b> file contain a function named '<i>proposal_4_HC</i>'. The function simulate proposal value for Global shrinkage parameter &tau; from uniform distribution in the Metropolis-Hastings step for &tau; in '<i>Factor_Model_HB_selection</i>' function.
 
 5) <b>dHCauchy.R</b> file contain a function named '<i>dHCauchy</i>'. The function evaluate the density of the <b>Half-Cauchy</b> distribution.
 
 6) <b>dinvGamma.R</b> file contain a function named '<i>dinvGamma</i>'. The function evaluate the density of the <b>Inverse-Gamma</b> distribution.
+
+7) <b>log_posterior_parallel.R</b> file contain a function named '<i>log_posterior_parallel</i>'. The function evaluate the log-posterior at Metropolis step in '<i>Factor_Model_HB_selection</i>' function.
