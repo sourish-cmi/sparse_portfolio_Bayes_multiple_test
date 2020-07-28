@@ -6,7 +6,7 @@ Soon we will upload all the R codes of this paper.
 
 ### Capital Asset Pricing Model (CAPM)
 
-1) <b>CAPM_MLE_Back_testing.R</b> compute the &alpha; &beta; and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stock's for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. 
+1) <b>CAPM_MLE_Back_testing.R</b> compute the &alpha; &beta; and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stocks for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. 
 
 ### Bayes Oracle test with Discrete Mixture prior for Portfolio Selection and Back testing of K-factor model
 
