@@ -9,7 +9,7 @@ Soon we will upload all the R codes of this paper.
 
 2) <b>run_Factor_Model_HB_selection.R</b> runs the portfolio selction with <i>Factor_Model_HB_selection</i> function for given month and return the stock specific MCMC samples of &alpha;, &beta; &sigma; and posterior estimates of the P(&alpha; > 0| data). 
 
-3) <b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. It takes the output from <i>run_Factor_Model_HB_selection</i> for a specific month and build the portfolio using the highest posterior estimates of the P(&alpha; > 0| data) for ns(=25) stocks. It computes the portfolio return for next month (as out-of-sample or test-sample portfolio return) for portfolio selected with ns(=25) stocks.
+3) <b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. It takes the output from <i>run_Factor_Model_HB_selection</i> for a specific month and build the portfolio using the highest posterior estimates of the P(&alpha; > 0| data) for ns(=25) stocks. One can use either 'equal weight' portfolio or 'Markowitz weight' portfolio strategy on the selected ns(=25) stocks. It computes the portfolio return for next month (as out-of-sample or test-sample portfolio return) for portfolio selected with ns(=25) stocks.
 
 4) <b>simulate_theta_sigma.R</b> file contain a function named '<i>simulate_theta_sigma</i>'. The function is called in  <i>Factor_Model_HB_selection</i> and used in Gibbs steps to simulate stock specific &beta; and &sigma; in '<i>Factor_Model_HB_selection</i>' function.
 
