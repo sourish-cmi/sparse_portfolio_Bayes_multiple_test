@@ -4,5 +4,6 @@ All codes of the paper titled "<b>Sparse Portfolio Selection via Multiple Testin
 
 Soon we will upload all the R codes of this paper.
 
-### Back testing of the portfolio selected with Hierarchical Bayes model
-<b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. 
+### Hierarchical Bayes with Horse Shoe Prior model for Portfolio Selection and Back testing 
+1) <b>Factor_Model_HB_selection.R</b> file contain a function named '<i>Factor_Model_HB_selection</i>'. It implement the Gibbs sampling for &beta; and Metropolis update for scale parameters &sigma; and &Sigma; with Horse Shoe prior on shrinkage parameter.
+2) <b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. 
