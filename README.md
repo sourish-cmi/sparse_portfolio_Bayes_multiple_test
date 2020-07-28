@@ -7,7 +7,7 @@ Soon we will upload all the R codes of this paper.
 ### Hierarchical Bayes with Horse Shoe Prior model for Portfolio Selection and Back testing 
 1) <b>Factor_Model_HB_selection.R</b> file contain a function named '<i>Factor_Model_HB_selection</i>'. It implement the Gibbs sampling for &beta; and Metropolis update for scale parameters &sigma;<sub>c</sub> and &Sigma; with Horse Shoe prior on shrinkage parameter. The function uses parallel processing to simulate stock specific &beta; and &sigma; using <b>snowfall</b> R-package. The function uses three R-packages: (1) snowfall, (2) mvtnorm and (3) MCMCpack
 
-2) <b>run_Factor_Model_HB_selection.R</b> runs the portfolio selction with <i>Factor_Model_HB_selection</i> function for given period. 
+2) <b>run_Factor_Model_HB_selection.R</b> runs the portfolio selction with <i>Factor_Model_HB_selection</i> function for given month and return the stock specific &alpha;, &beta; &sigma; and P(&alpha; > 0). 
 
 3) <b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. 
 
