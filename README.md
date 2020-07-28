@@ -4,6 +4,15 @@ All codes of the paper titled "<b>Sparse Portfolio Selection via Multiple Testin
 
 Soon we will upload all the R codes of this paper.
 
+<b>Following R-packages are required</b>:
+
+1) snowfall
+2) mvtnorm
+3) MCMCpack
+4) tseries
+5) lars
+  
+
 ### Capital Asset Pricing Model (CAPM) with MLE 
 
 1) <b>CAPM_MLE_Back_testing.R</b> compute the &alpha; &beta; and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stocks for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. The parameters of <b>CAPM</b> &alpha; &beta; and &sigma; estimated using MLE method.
