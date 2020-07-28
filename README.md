@@ -7,9 +7,9 @@ Soon we will upload all the R codes of this paper.
 ### Hierarchical Bayes with Horse Shoe Prior model for Portfolio Selection and Back testing 
 1) <b>Factor_Model_HB_selection.R</b> file contain a function named '<i>Factor_Model_HB_selection</i>'. It implement the Gibbs sampling for &beta; and Metropolis update for scale parameters &sigma;<sub>c</sub> and &Sigma; with Horse Shoe prior on shrinkage parameter. The function uses parallel processing to simulate stock specific &beta; and &sigma; using <b>snowfall</b> R-package. The function uses three R-packages: (1) snowfall, (2) mvtnorm and (3) MCMCpack
 
-2) <b>run_Factor_Model_HB_selection.R</b> runs the portfolio selction with <i>Factor_Model_HB_selection</i> function for given month and return the stock specific &alpha;, &beta; &sigma; and P(&alpha; > 0). 
+2) <b>run_Factor_Model_HB_selection.R</b> runs the portfolio selction with <i>Factor_Model_HB_selection</i> function for given month and return the stock specific MCMC samples of &alpha;, &beta; &sigma; and posterior estimates of the P(&alpha; > 0| data). 
 
-3) <b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. 
+3) <b>Factor_Model_HB_Back_testing.R</b> file contain a function named '<i>Factor_Model_HB_Back_testing</i>'. It takes the output from <i>run_Factor_Model_HB_selection</i> for a specific month and build the portfolio using the highest posterior estimates of the P(&alpha; > 0| data) for ns(=25) stocks. It computes the portfolio return for next month (as out-of-sample or test-sample portfolio return).
 
 4) <b>simulate_theta_sigma.R</b> file contain a function named '<i>simulate_theta_sigma</i>'. The function is called in  <i>Factor_Model_HB_selection</i> and used in Gibbs steps to simulate stock specific &beta; and &sigma; in '<i>Factor_Model_HB_selection</i>' function.
 
