@@ -1,0 +1,9 @@
+dinvGamma<-function(x,shape,scale,log=TRUE){
+  a<-shape
+  b<-scale
+  f<-(b^a/gamma(a))*x^(-a-1)*exp(-b/x)
+  if(log=="TRUE"){
+    f<-a*log(b)-log(gamma(a))+(-a-1)*log(x)-(b/x)
+  }
+  return(f)
+}
