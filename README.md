@@ -4,6 +4,12 @@ All codes of the paper titled "<b>Sparse Portfolio Selection via Multiple Testin
 
 Soon we will upload all the R codes of this paper.
 
+### Bayes Oracle test with Discrete Mixture prior for Portfolio Selection and Back testing of K-factor model
+
+1) <b>Factor_Model_BO_Back_testing.R</b> compute the Bayes Oracle statistics <i>S<sub>i</sub></i> for the <i>i<sup>th</sup></i> stock. Then it select the ns(=25) many stocks for portfolio for largest ns(=25) <i>S<sub>i</sub></i>'s.
+
+
+
 ### Hierarchical Bayes with Horse Shoe Prior model for Portfolio Selection and Back testing of K-factor model
 
 1) <b>Factor_Model_HB_selection.R</b> file contain a function named '<i>Factor_Model_HB_selection</i>'. It implement the Gibbs sampling for &beta; and Metropolis update for scale parameters &sigma;<sub>c</sub> and &Sigma; with Horse Shoe prior on shrinkage parameter. The function uses parallel processing to simulate stock specific &beta; and &sigma; using <b>snowfall</b> R-package. The function uses three R-packages: (1) snowfall, (2) mvtnorm and (3) MCMCpack
@@ -22,7 +28,4 @@ Soon we will upload all the R codes of this paper.
 
 8) <b>log_posterior_parallel.R</b> file contain a function named '<i>log_posterior_parallel</i>'. The function evaluate the log-posterior for Metropolis step in '<i>Factor_Model_HB_selection</i>' function.
 
-### Bayes Oracle test with Discrete Mixture prior for Portfolio Selection and Back testing of K-factor model
-
-1) <b>Factor_Model_BO_Back_testing.R</b> compute the Bayes Oracle statistics <i>S<sub>i</sub></i> for the <i>i<sup>th</sup></i> stock. Then it select the ns(=25) many stocks for portfolio for largest ns(=25) <i>S<sub>i</sub></i>'s.
 
