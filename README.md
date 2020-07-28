@@ -15,11 +15,11 @@ Soon we will upload all the R codes of this paper.
 
 ### Capital Asset Pricing Model (CAPM) with MLE 
 
-1) <b>CAPM_MLE_Back_testing.R</b> compute the &alpha; &beta; and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stocks for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. The parameters of <b>CAPM</b> &alpha; &beta; and &sigma; estimated using MLE method.
+1) <b>CAPM_MLE_Back_testing.R</b> compute the &alpha;, &beta;, and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stocks for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. The parameters of <b>CAPM</b> &alpha; &beta; and &sigma; estimated using MLE method.
 
 ### Capital Asset Pricing Model (CAPM) with LARS-LASSO method by Fang etal.
 
-1) <b>CAPM_Fang_Back_testing.R</b> compute the &alpha; &beta; and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stocks for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. The parameters of <b>CAPM</b> &alpha; &beta; and &sigma; estimated using LARS-LASSO method.
+1) <b>CAPM_Fang_Back_testing.R</b> compute the &alpha;, &beta;, and &sigma; of CAPM for <i>j<sup>th</sup></i> training period for month <i>t</i> to select the stocks for portfolio. Based on &alpha; it select the ns(=25) stocks. Then compute the out-sample portfolio return for month <i>t+1</i>. The parameters of <b>CAPM</b> &alpha; &beta; and &sigma; estimated using LARS-LASSO method.
 
 ### Bayes Oracle test with Discrete Mixture prior for Portfolio Selection and Back testing of K-factor model
 
