@@ -18,7 +18,7 @@ Soon we will upload all the R codes of this paper.
 
 <b>Back_testing.R</b> is the main file which tests all the methodology described in the paper with data on 500 stocks which are mostly part of S&P 500 index and listed with NYSE (around 2018). The file <b>Back_testing.R</b> calls all the files described below. The 500 stocks which are part of S&P 500 are typically liquid in nature. We pretend that the market consists of these 500 stocks and we are going to select 25 stocks using described methodologies using one month data. Then we pretend as if we invest in those 25 selected stocks for next one month and accept the portfolio return from the investment. We start our back-testing from 2006-Jan-01. 
 
-For backtesting, the adjusted close prices of 500 stocks were downloaded from Yahoo and stored as RData file: <b>yahoo_snp500_adj_close_return_20181101.RData</b>
+For backtesting, the adjusted close prices of 500 stocks were downloaded from Yahoo and stored as RData file: <b>yahoo_snp500_adj_close_return_20181101.RData</b> The data downloaded on 1st Nov 2018.
 
 ### Capital Asset Pricing Model (CAPM) with MLE 
 
