@@ -2,7 +2,6 @@
 
 All codes of the paper titled "<b>Sparse Portfolio Selection via Multiple Testing</b>" are available here. This is a joint project of <b>Sourish Das</b> and <b>Rituparna Sen</b>. The paper is being accepted in <b>Sankhya - B</b>. The preprint of the paper can be found here: <a href='https://arxiv.org/abs/1705.01407'>Preprint</a> 
 
-Soon we will upload all the R codes of this paper.
 
 <b>Following R-packages are required</b>:
 
