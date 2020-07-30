@@ -11,7 +11,11 @@ Soon we will upload all the R codes of this paper.
 3) MCMCpack
 4) tseries
 5) lars
+6) xts
+7) xtable
   
+### Back testing 
+
 
 ### Capital Asset Pricing Model (CAPM) with MLE 
 
